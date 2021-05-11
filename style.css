@@ -1,0 +1,35 @@
+h1 {
+  color: forestgreen;
+}
+* {
+  color: orange;
+}
+a {
+  font-size: xx-large;
+  color: darkcyan;
+}
+.header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  border: solid;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  align-items: stretch;
+  border: solid;
+}
+p {
+  font-size: large;
+  font-weight: 100;
+  text-align: center;
+}
